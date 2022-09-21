@@ -1,0 +1,16 @@
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+   background-color: black;
+}
+/*Barra de navegación */
+
+.navbar-brand{
+    font-family: rampart one;
+    color: red;
+}
+.btn.btn-outline-success{
+    color: black;
+    background-color: red;
+    border-color: red;
+}
