@@ -1,9 +1,9 @@
 
-/* .body {
+.body {
     height: 100%
     font-family: 'Open Sans', sans-serif;
    background-color: black;
-} */
+}
 /*Barra de navegación */
 
 .navbar-brand{
@@ -23,7 +23,7 @@
 width: 100%;
 height: 30vh;
 border: 9px solid black;
-border-radius: 5px;
+border-radius: 9px;
 margin: auto;
 background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
 url(../assets/img/banner1.jpg);
@@ -52,4 +52,79 @@ border-radius: 15px;
 .banner-boton :hover{
     background-color: black;
     color: red;
+}
+/* articulos tipo banners */
+.banner1{
+    width: 100%;
+    border: 9px solid black;
+    border-radius: 9px;
+    margin: auto;
+    background-color: black;
+    background-position:right;
+    display: inline-block;
+    position: relative;
+    justify-items: center;
+    }
+    .banner.adultxs{
+        width: 100%;
+        height: 30vh;
+        border: 9px solid black;
+        border-radius: 9px;
+        margin: auto;
+        background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.01)),
+        url(../assets/img/adultxs.jpg);
+        background-position:right;
+        display: inline-block;
+        position: relative;
+        justify-items: center;
+        }
+        .banner.infantil{
+            width: 100%;
+            height: 30vh;
+            border: 9px solid black;
+            border-radius: 9px;
+            margin: auto;
+            background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.01)),
+            url(../assets/img/infantil.jpg);
+            background-position:right;
+            display: inline-block;
+            position: relative;
+            justify-items: center;
+            }
+.section-titulo{
+    font-family: 'open sans';
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+}
+.section-texto{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.section{
+background-color: rgb(46, 46, 46);
+border: 2px solid rgb(46, 46, 46);
+border-radius: 9px;
+
+}
+.pie-texto{
+text-decoration: none;
+    color:white;
+    text-align:left;
+    justify-content: center;
+    justify-items: center;
+}
+.linea{
+    text-decoration: none;
+    color: white;
+}
+.pie1{
+    color:white;
+    width: 25%;
+   margin: 100px;
+   display: table-cell;
+   padding: 10px;
 }
