@@ -1,8 +1,16 @@
-
+.rampart{
+    font-family: 'rampart one';
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+}
 .body {
-    height: 100%
+    height: 100%;
     font-family: 'Open Sans', sans-serif;
    background-color: black;
+   text-decoration: none;
 }
 /*Barra de navegación */
 
@@ -29,7 +37,6 @@ background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
 url(../assets/img/banner1.jpg);
 background-position:right;
 display: inline-block;
-position: relative;
 justify-items: center;
 }
 .banner-texto{
@@ -39,18 +46,15 @@ justify-items: center;
     font-family: 'Rampart One';
     
 }
-.banner-boton{
-    text-decoration: none;
-    box-shadow: inset 0 -3px 0 0 rgb(5, 0, 0);
-    font-size: 1rem;
-   background-color: white;
-   color: black;
-padding: 8px 30px;
-font-family: 'open sans';
-border-radius: 15px;
+.banner-boton.link{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+margin: 10px;
 }
-.banner-boton :hover{
-    background-color: black;
+.banner-boton.link :hover{
+    background-color: white;
     color: red;
 }
 /* articulos tipo banners */
@@ -62,7 +66,6 @@ border-radius: 15px;
     background-color: black;
     background-position:right;
     display: inline-block;
-    position: relative;
     justify-items: center;
     }
     .banner.adultxs{
@@ -75,7 +78,6 @@ border-radius: 15px;
         url(../assets/img/adultxs.jpg);
         background-position:right;
         display: inline-block;
-        position: relative;
         justify-items: center;
         }
         .banner.infantil{
@@ -88,7 +90,6 @@ border-radius: 15px;
             url(../assets/img/infantil.jpg);
             background-position:right;
             display: inline-block;
-            position: relative;
             justify-items: center;
             }
 .section-titulo{
@@ -105,26 +106,87 @@ border-radius: 15px;
     justify-items: center;
 }
 .section{
+    margin:10px ;
+    border-radius: 10px;
+    padding: 10px;
 background-color: rgb(46, 46, 46);
-border: 2px solid rgb(46, 46, 46);
-border-radius: 9px;
 
 }
-.pie-texto{
-text-decoration: none;
-    color:white;
-    text-align:left;
-    justify-content: center;
-    justify-items: center;
-}
+
 .linea{
     text-decoration: none;
     color: white;
 }
-.pie1{
-    color:white;
-    width: 25%;
-   margin: 100px;
-   display: table-cell;
-   padding: 10px;
+
+.destacados{
+    text-align: center;
+    margin: 10px;
+}
+.tarjeta-grupo{
+    margin:10px ;
+    border-radius: 10px;
+    padding: 10px;
+background-color: red;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.tarjeta{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.tarjeta img{
+    height: 200px;
+    width: 200px;
+}
+.comprar{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin: 5px;
+padding: 10px;
+border-radius: 9px;
+}
+.pie-pagina{
+width: 100%;
+background-color: rgb(46, 46, 46);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.pie-pagina-g{
+   
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.pietitulo{
+    color: red;
+
+}
+.pie-texto{
+    color: white;
+}
+.link.pie-texto :hover{
+    color: red;
+}
+.pietitulo.rampart.link :hover{
+    color: white;
+}
+.suscribir{
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border-color: red;
+    border-radius: 5px;
 }
