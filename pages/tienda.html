@@ -1,94 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&family=Rampart+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>M.S | Tienda</title>
-</head>
-<body>
-  <body class="body">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-          <h1>MALDITO SISTEMA</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Tienda
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./lineaadultxs.html">Línea adultxs</a></li>
-                <li><a class="dropdown-item" href="./lineainfantil.html">Línea infantil</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Nosotros</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-light" type="submit">Buscar</button>
-          </form>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&family=Rampart+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>M.S | Tienda</title>
+</head>
+
+<body class="body">
+  <header class="barra">
+
+    <a class="link rampart barra-titulo" href="../index.html">
+      <h1>MALDITO SISTEMA</h1>
+    </a>
+
+    <nav>
+      <div class="barra-menu">
+        <ul>
+          <li>
+            <a class="link menu" href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="link menu" href="contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a class="link menu" href="tienda.html">
+              Tienda
+            </a>
+          </li>
+          <li>
+            <a class="link menu">Nosotros</a>
+          </li>
+        </ul>
       </div>
     </nav>
-  
-    <main>
-      <div class="banner1">
-        <section class="section">
-          <h2 class="section-titulo">Tienda online</h2>
-        </section>
-      </div>
-      <div class="banner adultxs">
-        <div class="banner-texto">
-          <h2>Línea adultxs</h2>
-          <a class="banner-boton" href="lineaadultxs.html">ver</a>
-        </div> </div>
-        <div class="banner infantil">
-          <div class="banner-texto">
-            <h2>Línea infantil</h2>
-            <a class="banner-boton" href="lineainfantil.html">ver</a>
-          </div> </div>
-    </main>
-    <footer>
+    <form role="search">
+      <input class="botontexto" type="search" placeholder="Buscar" aria-label="Buscar">
+      <button class="botonbuscar" type="submit">Buscar</button>
+    </form>
+  </header>
+  <main>
+    <section class="banner-tienda">
+      <h2 class="banner-texto">Tienda online</h2>
+    </section>
+    <section>
+      <div class="tarjeta-grupo">
 
-      <div class="pie1"><h3>TIENDA</h3>
-      <ul>
-          <li>Línea adultxs</li>
-          <li>línea infantil</li>
-      </ul></div>
-  
-      <div class="pie1"><h3>CONTACTO</h3>
-      <ul>
-          <li>+54 11 56295514</li>
-          <li>ind.malditosistema</li>
-          <li>malditosistemaoficial@gmail.com</li>
-      </ul></div>
-  
-      <div class="pie1"><h3>NEWSLETTER</h3>
-      <input type="email" placeholder="Ingresá tu email y suscribite a nuestro newsletter" class="newlestter-emaill">
-      <input type="button" value="suscribir"></div>
+        <div class="tarjeta categorias">
+          <a href="../pages/lineainfantil.html" class="tarjeta-titulo link">
+            <h3>LÍNEA INFANTIL</h3>
+          </a>
+          <a href="../pages/lineainfantil.html" class="link comprar">VER</a>
+
+        </div>
+
+
+        <div class="tarjeta categorias1">
+          <a href="../pages/lineaadultxs.html" class="tarjeta-titulo link">
+            <h3>LÍNEA ADULTXS</h3>
+          </a>
+          <a href="../pages/lineaadultxs.html" class="link comprar">VER</a>
+        </div>
+  </main>
+
+  <footer>
+    <div class="pie-pagina">
+      <div class="pie-pagina-g ">
+        <a href="../index.html" class="pietitulo rampart link">
+          <h3>TIENDA</h3>
+        </a>
+        <ul>
+          <a href="lineaadultxs.html" class="link pie-texto">
+            <li>Línea adultxs</li>
+          </a>
+          <a href="lineainfantil.html" class="link pie-texto">
+            <li>línea infantil</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="pie-pagina-g ">
+        <a href="../pages/contacto.html" class="pietitulo rampart link">
+          <h3>CONTACTO</h3>
+        </a>
+        <ul class="pie-texto">
+          <li class="link">+54 11 56295514</li>
+          <li class="link">ind.malditosistema</li>
+          <li class="link">malditosistemaoficial@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="pie-pagina-g ">
+        <h3 class="pietitulo rampart">NEWSLETTER</h3>
+        <input type="email" placeholder="Ingresá tu email y suscribite a nuestro newsletter" class="newlestter-emaill">
+        <input type="button" value="suscribir" class="suscribir">
+      </div>
+
+    </div>
   </footer>
-  </body>
 </body>
+
 </html>

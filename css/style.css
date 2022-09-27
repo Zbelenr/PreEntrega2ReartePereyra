@@ -7,14 +7,13 @@
     list-style: none;
 }
 .body {
-    height: 100%;
     font-family: 'Open Sans', sans-serif;
    background-color: black;
    text-decoration: none;
 }
 /*Barra de navegación */
 .barra{
-    width: 100%;
+    height: 100%;
     padding: 10px;
     background-color: rgb(46, 46, 46);
     display: flex;
@@ -68,7 +67,6 @@ border-radius: 5px;
 }
 /* Banner */
 .banner{
-width: 100%;
 height: 30vh;
 border: 9px solid black;
 border-radius: 5px;
@@ -78,7 +76,7 @@ background-position:right;
 display: flex;
 justify-items: center;
 align-items: center;
-text-align: center;
+
 
 }
 .boton-banner{
@@ -105,18 +103,7 @@ text-align: center;
     color: red;
     border: 2px solid red;
 }
-/* articulos tipo banners */
-.banner1{
-    width: 100%;
-    border: 9px solid black;
-    border-radius: 9px;
-    margin: auto;
-    background-color: black;
-    background-position:right;
-    display: inline-block;
-    justify-items: center;
-    }
-   
+
 .section-titulo{
     font-family: 'open sans';
     text-align: center;
@@ -231,3 +218,32 @@ justify-content: center;
     background-color: white;
     border: 2px solid red;
 }
+.banner-tienda{
+    height: 20vh;
+    border: 9px solid black;
+    border-radius: 5px;
+    background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
+    url(../assets/img/banner1.jpg);
+    background-position:right;
+    display: flex;
+    justify-items: center;
+    align-items: center; }
+
+    .categorias{
+        background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)), url(../assets/img/bob-esponja.jpg);
+        height: 400px;
+        width: 40%;
+        background-position: center;
+        background-size: cover;
+    }
+    .categorias1{
+        background-image: linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),url(../assets/img/por-cierto-calamardo-de-bob-esponja-no-es-un-cala-2-1245-1508437390-1_dblbig.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: 40%;
+    }
+    .tarjeta-titulo h3{
+        color: white;
+
+    }
