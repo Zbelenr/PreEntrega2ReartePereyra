@@ -249,7 +249,7 @@ justify-content: center;
         border-radius: 5px;
         background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
         url(../assets/img/por-cierto-calamardo-de-bob-esponja-no-es-un-cala-2-1245-1508437390-1_dblbig.jpg);
-        background-position:right;
+        background-position: center;
         display: flex;
         justify-items: center;
         align-items: center; }
