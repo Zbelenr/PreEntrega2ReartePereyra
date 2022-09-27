@@ -19,56 +19,48 @@
 
 <body class="body">
 
+  <header class="barra">
 
+    <a class="link rampart barra-titulo" href="./index.html">
+      <h1>MALDITO SISTEMA</h1>
+    </a>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">
-        <h1>MALDITO SISTEMA</h1>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Inicio</a>
+    <nav>
+      <div class="barra-menu">
+        <ul>
+          <li>
+            <a class="link menu" href="./index.html">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          <li>
+            <a class="link menu" href="./pages/contacto.html">Contacto</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+          <li>
+            <a class="link menu" href="./pages/tienda.html">
               Tienda
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./pages/lineaadultxs.html">Línea adultxs</a></li>
-              <li><a class="dropdown-item" href="./pages/lineainfantil.html">Línea infantil</a></li>
-            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link">Nosotros</a>
+          <li>
+            <a class="link menu">Nosotros</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-          <button class="btn btn-outline-light" type="submit">Buscar</button>
-        </form>
       </div>
-    </div>
-  </nav>
+    </nav>
+    <form role="search">
+      <input class="botontexto" type="search" placeholder="Buscar" aria-label="Buscar">
+      <button class="botonbuscar" type="submit">Buscar</button>
+    </form>
+  </header>
+
+
 
   <main>
     <!-- BANNER DISEÑOS EXCLUSIvOS -->
-    <section>
-      <div class="banner">
-        <div class="banner-texto">
-          <h2>DISEÑOS EXCLUSIVOS</h2>
-          <a class="banner-boton link" href="./pages/tienda.html">Tienda</a>
-        </div>
-      </div>
+    <section class="banner">
+     
+
+        <h2 class="banner-texto">DISEÑOS EXCLUSIVOS</h2>
+       <a  class=" link banner-boton" href="./pages/tienda.html">Tienda</a>
+        
     </section>
 
     <!-- BANNER NOSOTROS -->
@@ -85,28 +77,28 @@
     <!-- LO MAS DESTACADO -->
     <section>
       <h2 class="destacados rampart">DESTACADAS</h2>
+
       <div class="tarjeta-grupo">
 
-
         <div class="tarjeta">
-          <h3 class="tarjeta-titulo">Floreada</h3>
+          <h3 class="tarjeta-titulo rampart">Floreada</h3>
           <img src="./assets/img/descarga (1).jpg"
             alt="Remera basica negra estampada diseño de mujer con flores en la cabeza">
-          <a href="" class="comprar">COMPRAR</a>
+          <a href="" class="link comprar">COMPRAR</a>
         </div>
 
 
         <div class="tarjeta">
-          <h3 class="tarjeta-titulo">Drago</h3>
+          <h3 class="tarjeta-titulo rampart">Drago</h3>
           <img src="./assets/img/images (1).jpg" alt="Remera estampada diseño tradicional con dragon">
-          <a href="" class="comprar">COMPRAR</a>
+          <a href="" class="link comprar">COMPRAR</a>
         </div>
 
 
         <div class="tarjeta">
-          <h3 class="tarjeta-titulo">Infantil</h3>
+          <h3 class="tarjeta-titulo rampart">Infantil</h3>
           <img src="./assets/img/infantil.jpg" alt="Remera estampada diseño con dinosaurios">
-          <a href="" class="comprar">COMPRAR</a>
+          <a href="" class="link comprar">COMPRAR</a>
         </div>
 
       </div>
@@ -116,17 +108,17 @@
 
 
   <footer>
-    <div class="pie-pagina pie-texto">
+    <div class="pie-pagina">
       <div class="pie-pagina-g ">
         <a href="./pages/tienda.html" class="pietitulo rampart link">
           <h3>TIENDA</h3>
         </a>
         <ul>
           <a href="./pages/lineaadultxs.html" class="link pie-texto">
-            <li >Línea adultxs</li>
+            <li>Línea adultxs</li>
           </a>
-          <a href="./pages/lineainfantil.html"class="link pie-texto">
-            <li >línea infantil</li>
+          <a href="./pages/lineainfantil.html" class="link pie-texto">
+            <li>línea infantil</li>
           </a>
         </ul>
       </div>
@@ -135,7 +127,7 @@
         <a href="./pages/contacto.html" class="pietitulo rampart link">
           <h3>CONTACTO</h3>
         </a>
-        <ul class="pietexto">
+        <ul class="pie-texto">
           <li class="link">+54 11 56295514</li>
           <li class="link">ind.malditosistema</li>
           <li class="link">malditosistemaoficial@gmail.com</li>

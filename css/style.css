@@ -13,49 +13,97 @@
    text-decoration: none;
 }
 /*Barra de navegación */
-
-.navbar-brand{
-    font-family: rampart one;
+.barra{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.barra-titulo{
     color: red;
 }
-.nav-link {
+.barra-titulo :hover{
     color: white;
 }
-.btn.btn-outline-light{
+
+.barra-menu ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.barra-menu li{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+.link.menu{
+    color: white;
+}
+.link.menu:hover{
+color: red;
+background-color: white;
+border: 2px solid red;
+padding: 10px;
+border-radius: 5px;
+}
+.botontexto{
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+}
+.botonbuscar{
     color: white;
     background-color: red;
-    border-color: red;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+.botonbuscar:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
 }
 /* Banner */
 .banner{
 width: 100%;
 height: 30vh;
 border: 9px solid black;
-border-radius: 9px;
-margin: auto;
+border-radius: 5px;
 background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
 url(../assets/img/banner1.jpg);
 background-position:right;
-display: inline-block;
+display: flex;
 justify-items: center;
+align-items: center;
+text-align: center;
+
+}
+.boton-banner{
+    justify-content: center;
 }
 .banner-texto{
-    margin: 10vh;
+    margin: 10px;
     color: white;
     text-align: center;
     font-family: 'Rampart One';
+
     
 }
-.banner-boton.link{
+.link.banner-boton{
+    margin: 10px;
     color: white;
     background-color: red;
     padding: 10px;
     border-radius: 5px;
-margin: 10px;
+
 }
-.banner-boton.link :hover{
+.link.banner-boton:hover{
     background-color: white;
     color: red;
+    border: 2px solid red;
 }
 /* articulos tipo banners */
 .banner1{
@@ -68,30 +116,7 @@ margin: 10px;
     display: inline-block;
     justify-items: center;
     }
-    .banner.adultxs{
-        width: 100%;
-        height: 30vh;
-        border: 9px solid black;
-        border-radius: 9px;
-        margin: auto;
-        background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.01)),
-        url(../assets/img/adultxs.jpg);
-        background-position:right;
-        display: inline-block;
-        justify-items: center;
-        }
-        .banner.infantil{
-            width: 100%;
-            height: 30vh;
-            border: 9px solid black;
-            border-radius: 9px;
-            margin: auto;
-            background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.01)),
-            url(../assets/img/infantil.jpg);
-            background-position:right;
-            display: inline-block;
-            justify-items: center;
-            }
+   
 .section-titulo{
     font-family: 'open sans';
     text-align: center;
@@ -121,6 +146,7 @@ background-color: rgb(46, 46, 46);
 .destacados{
     text-align: center;
     margin: 10px;
+    color: red;
 }
 .tarjeta-grupo{
     margin:10px ;
@@ -135,27 +161,37 @@ justify-content: center;
 .tarjeta{
     background-color: white;
     width: 300px;
-    height: 400px;
     margin: 10px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px 10px;
     text-align: center;
     flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 }
+.tarjeta-titulo{
+    margin: 10px;
+}
 .tarjeta img{
     height: 200px;
     width: 200px;
+    margin: 10px;
 }
-.comprar{
+
+.link.comprar{
     text-decoration: none;
     color: white;
     background-color: red;
-    margin: 5px;
+    margin: 10px;
 padding: 10px;
 border-radius: 9px;
 }
+.link.comprar:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+
 .pie-pagina{
 width: 100%;
 background-color: rgb(46, 46, 46);
@@ -189,4 +225,9 @@ justify-content: center;
     margin: 10px;
     border-color: red;
     border-radius: 5px;
+}
+.suscribir:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
 }
