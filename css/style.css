@@ -40,15 +40,14 @@
 }
 .link.menu{
     color: white;
-    border: 2px solid rgb(46, 46, 46);
-    padding: 10px;
-    margin: 10px;
+border: 2px solid rgb(46, 46, 46);
+margin: 2px;
 }
 .link.menu:hover{
 color: red;
 background-color: white;
 border: 2px solid red;
-padding: 10px;
+padding: 5px;
 border-radius: 5px;
 }
 .botontexto{
