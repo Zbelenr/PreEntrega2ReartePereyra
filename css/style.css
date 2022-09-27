@@ -40,6 +40,9 @@
 }
 .link.menu{
     color: white;
+    border: 2px solid rgb(46, 46, 46);
+    padding: 10px;
+    
 }
 .link.menu:hover{
 color: red;
@@ -247,3 +250,14 @@ justify-content: center;
         color: white;
 
     }
+    .banner-tienda1{
+        height: 20vh;
+        border: 9px solid black;
+        border-radius: 5px;
+        background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
+        url(../assets/img/por-cierto-calamardo-de-bob-esponja-no-es-un-cala-2-1245-1508437390-1_dblbig.jpg);
+        background-position:right;
+        display: flex;
+        justify-items: center;
+        align-items: center; }
+        
