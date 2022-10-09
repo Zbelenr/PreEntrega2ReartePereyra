@@ -1,322 +1,174 @@
-.rampart{
-    font-family: 'rampart one';
-    text-decoration: none;
-}
-link{
-    text-decoration: none;
-    list-style: none;
-}
-.body {
-    font-family: 'Open Sans', sans-serif;
-   background-color: black;
-   text-decoration: none;
-}
-/*Barra de navegación */
-.barra{
-    height: 100%;
-    padding: 10px;
-    background-color: rgb(46, 46, 46);
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-}
-.barra-titulo{
-    color: red;
-}
-.barra-titulo :hover{
-    color: white;
+.fuente1 {
+  font-family: "Ewert", cursive;
 }
 
-.barra-menu ul{
-    list-style-type: none;
-    text-align: center;
-    
-}
-.barra-menu li{
-    display: inline;
-    text-align: center;
-    padding: 10px;
-}
-.link.menu{
-    color: white;
-}
-.link.menu:hover{
-color: red;
-}
-.botontexto{
-    border-radius: 5px;
-    padding: 5px;
-    border: 0;
-}
-.botonbuscar{
-    color: white;
-    background-color: red;
-    padding: 5px;
-    border: 0;
-    border-radius: 5px;
-}
-.botonbuscar:hover{
-    color: red;
-    background-color: white;
-    border: 2px solid red;
-}
-/* Banner */
-banner{
-height: 30vh;
-border: 9px solid black;
-border-radius: 5px;
-background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
-url(../assets/img/banner1.jpg);
-background-position:right;
-display: flex;
-justify-items: center;
-align-items: center;
-
-
-}
-.boton-banner{
-    justify-content: center;
-}
-banner-texto{
-    margin: 10px;
-    color: white;
-    text-align: center;
-    font-family: 'Rampart One';
-
-    
-}
-.link.banner-boton{
-    margin: 10px;
-    color: white;
-    background-color: red;
-    padding: 10px;
-    border-radius: 5px;
-
-}
-.link.banner-boton:hover{
-    background-color: white;
-    color: red;
-    border: 2px solid red;
+.fuente2 {
+  font-family: "Open Sans regular", sans-serif;
 }
 
-.section-titulo{
-    font-family: 'open sans';
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    color: white;
-}
-.section-texto{
-    color:white;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-}
-.section{
-    margin:10px ;
-    border-radius: 10px;
-    padding: 10px;
-background-color: rgb(46, 46, 46);
-
+.fuente3 {
+  font-family: "Open Sans light", sans-serif;
 }
 
-.linea{
-    text-decoration: none;
-    color: white;
+.red {
+  color: white;
+  background-color: red;
+  border: solid red;
 }
 
-.destacados{
-    text-align: center;
-    margin: 10px;
-    color: red;
-}
-.tarjeta-grupo{
-    margin:10px ;
-    border-radius: 10px;
-    padding: 10px;
-background-color: red;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-}
-.tarjeta{
-    background-color: white;
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 20px 10px;
-    text-align: center;
-    flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-}
-.tarjeta-titulo{
-    margin: 10px;
-}
-.tarjeta img{
-    height: 200px;
-    width: 200px;
-    margin: 10px;
+.btn.btn-outline-success:hover {
+  color: red;
+  background-color: white;
+  border: 3px solid red;
 }
 
-.link.comprar{
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    margin: 10px;
-padding: 10px;
-border-radius: 9px;
-}
-.link.comprar:hover{
-    color: red;
-    background-color: white;
-    border: 2px solid red;
+.boton {
+  color: white;
+  background-color: red;
+  border: 3px solid red;
+  padding: 8px;
+  border-radius: 5px;
 }
 
-.pie-pagina{
-width: 100%;
-background-color: rgb(46, 46, 46);
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-}
-.pie-pagina-g{
-   
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-}
-.pietitulo{
-    color: red;
-
-}
-.pie-texto{
-    color: white;
-}
-.link.pie-texto :hover{
-    color: red;
-}
-.pietitulo.rampart.link :hover{
-    color: white;
-}
-.suscribir{
-    background-color: red;
-    color: white;
-    margin: 10px;
-    border-color: red;
-    border-radius: 5px;
-}
-.suscribir:hover{
-    color: red;
-    background-color: white;
-    border: 2px solid red;
-}
-.banner-tienda{
-    height: 20vh;
-    border: 9px solid black;
-    border-radius: 5px;
-    background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
-    url(../assets/img/banner1.jpg);
-    background-position:right;
-    display: flex;
-    justify-items: center;
-    align-items: center; }
-
-    .categorias{
-        background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)), url(../assets/img/bob-esponja.jpg);
-        height: 400px;
-        width: 40%;
-        background-position: center;
-        background-size: cover;
-    }
-    .categorias1{
-        background-image: linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),url(../assets/img/por-cierto-calamardo-de-bob-esponja-no-es-un-cala-2-1245-1508437390-1_dblbig.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 400px;
-        width: 40%;
-    }
-    .tarjeta-titulo h3{
-        color: white;
-
-    }
-    .banner-tienda1{
-        height: 20vh;
-        border: 9px solid black;
-        border-radius: 5px;
-        background-image:linear-gradient(rgba(5, 7, 12), rgba(5, 7, 12, 0.15)),
-        url(../assets/img/por-cierto-calamardo-de-bob-esponja-no-es-un-cala-2-1245-1508437390-1_dblbig.jpg);
-        background-position: center;
-        display: flex;
-        justify-items: center;
-        align-items: center; }
-        
-        .formulario{
-            background-color: rgb(46, 46, 46);
-            margin: 10px;
-            display: flex;
-            justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-        }
-
-/* variables */
-.link{
-    text-decoration: none;
-    list-style: none;
-}
-.fuente1{
-    font-family: 'Ewert', cursive;
-}
-.fuente2{
-font-family: 'Open Sans regular', sans-serif;
-}
-.fuente3{
-    font-family: 'Open Sans light', sans-serif;
-    }
-
-    /* botones */
-.boton{
-    color: white;
-    background-color: red;
-    border: 3px solid red;
-    padding: 5px;
-    border-radius: 5px;
-}
-.boton:hover{
-    color: red;
-    background-color: white;
+.boton:hover {
+  color: red;
+  background-color: white;
+  border: 3px solid red;
 }
 
-/* header: navegador */
-.red{
-    color: white;
-    background-color: red;
-    border: solid red;}
-
-    .btn.btn-outline-success:hover{
-        color: red;
-        background-color: white;
-        border:3px solid red;
-    }
-
-/* main: banner */
-
-.banner{ 
-height: 30vh;
-background-image:url(../assets/img/banner.jpg);
-background-repeat: no-repeat;
-background-position:center;
-background-size: 80%;
-padding: 10px;
+.tarjeta-grupo {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(61, 61, 61);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.banner-titulo{
-    margin: 10px;
-    color: white;
-    text-align:left;
+.tarjeta {
+  background-color: white;
+  width: 400px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.mp {
+  background-color: black;
+  align-items: center;
+}
+
+.tmp {
+  text-align: center;
+  color: white;
+  width: 400px;
+  height: 200px;
+  background-color: red;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pie-pagina .tienda {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+.pie-pagina .titulo {
+  color: red;
+}
+.pie-pagina .texto {
+  color: white;
+}
+.pie-pagina .texto:hover {
+  color: red;
+}
+
+.pietitulo.rampart.link :hover {
+  color: white;
+}
+
+.suscribir {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.suscribir:hover {
+  color: red;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.navbar-brand.link.fuente1:hover {
+  color: red;
+}
+
+.banner-boton {
+  position: relative;
+  top: 30%;
+  left: 48%;
+}
+
+.destacados {
+  color: red;
+  background-color: rgb(61, 61, 61);
+  padding: 8px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+section {
+  background-color: black;
+}
+
+.envio {
+  color: white;
+  background-color: red;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+.banner {
+  height: 23vh;
+  width: 100%;
+  background-image: url(../assets/img/banner1700x210.png);
+  background-position: right;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+.banner-titulo {
+  text-align: center;
+  margin: 0%;
+  color: red;
+  position: relative;
+  top: 20%;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
