@@ -70,6 +70,10 @@
 .tarjeta img {
   border-radius: 10px;
 }
+.tarjeta .precio {
+  color: red;
+  margin: 10px;
+}
 
 .mp {
   background-color: black;
@@ -164,6 +168,10 @@ body {
   background-position: right;
   padding: 10px;
   background-repeat: no-repeat;
+}
+.banner.nat {
+  background-image: url(../assets/img/natura.png);
+  background-position: center;
 }
 .banner-titulo {
   text-align: center;

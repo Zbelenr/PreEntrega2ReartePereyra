@@ -8,6 +8,10 @@ body{
     background-position: right;
     padding: 10px;
     background-repeat: no-repeat;
+    &.nat{
+        background-image: url(../assets/img/natura.png);
+        background-position: center;
+    }
     &-titulo{
       
         text-align: center;
@@ -15,6 +19,7 @@ body{
         color: red;
         position: relative;
         top: 20%;}
+      
     }
 
     .link{
