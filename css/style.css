@@ -46,6 +46,14 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.tarjeta-grupo .tarjeta.indumentaria {
+  background-image: url(../assets/img/indumentaria.jpg);
+  background-position: center;
+}
+.tarjeta-grupo .tarjeta.natura {
+  background-image: url(../assets/img/natura.png);
+  background-position: center;
+}
 
 .tarjeta {
   background-color: white;
@@ -58,6 +66,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.tarjeta img {
+  border-radius: 10px;
 }
 
 .mp {
@@ -94,10 +105,6 @@
 }
 .pie-pagina .texto:hover {
   color: red;
-}
-
-.pietitulo.rampart.link :hover {
-  color: white;
 }
 
 .suscribir {
