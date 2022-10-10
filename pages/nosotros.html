@@ -1,62 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ewert&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand link fuente1" href="../index.html">MALDITO SISTEMA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link fuente3" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fuente3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item fuente3" href="../pages/lineainfantil.html">Línea Infantil</a></li>
-                    <li><a class="dropdown-item fuente3" href="../pages/lineaadultxs.html">Línea Adultxs</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item fuente3" href="../pages/natura.html">Productos Natura</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fuente3" href="../pages/nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fuente3" href="../pages/contacto.html">Contacto</a>
-                  </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                <button class="btn btn-outline-success red fuente3" type="submit">Buscar</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <section class="section">
-        <h2 class="section-titulo">Sobre nosotros</h2>
-        <article>
-          <p class="section-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint delectus,
-            deserunt quibusdam dolores nemo dolore, minus tempore reprehenderit repellendus similique accusamus deleniti
-            fuga ad reiciendis! Error iste hic voluptatibus?</p>
-        </article>
-      </section>
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ewert&family=Open+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>M.S | Nosotros</title>
+</head>
+
+<body class="fondo fuente3">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand link fuente1" href="../index.html">
+          <h1>MALDITO SISTEMA</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fuente3" href="../index.html">Inicio</a>
+            </li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fuente3" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item fuente3" href="../pages/indumentaria.html">Indumentaria</a></li>
+                <li><a class="dropdown-item fuente3" href="../pages/natura.html">Cosméticos Natura</a></li>
+                <li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fuente3" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fuente3" href="../pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success red fuente3" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h2 class="banner-titulo fuente1">Nosotros</h2>
+    </section>
+
+    <section>
+      <div class="tarjeta-grupo fondo">
+
+        <div class="tarjeta nosotros">
+          <h3 class=" fuente2">Hola!...</h3>
+          <p>Somos Zaira y David, queriamos contarles un poco acerca de como arrancó este sueño llamado "Maldito
+            Sistema"...</p>
+        </div>
+
+        <div class="tarjeta nosotros img1">
+        </div>
+
+        
+
+        <div class="tarjeta nosotros">
+          <h3 class=" fuente2">Mayo de 2021</h3>
+          <p>...Decidimos vender el auto e invertir el dinero en un nuevo emprendimiento ya que en ese momento nos encontrabamos sin trabajo, abrimos nuestro primer local juntos...</p>
+        </div>
+<div class="tarjeta nosotros img2">
+        </div>
+       
+        <div class="tarjeta nosotros">
+          <h3 class=" fuente2">Abril de 2022</h3>
+          <p>...para esta fecha habíamos tomado la decisión de cerrar el local, faltando tan solo un mes para que nasca Eithan, entre controles, ya casi no poder caminar y David teniendo otro trabajo se nos hacia imposible continuar...</p>
+        </div>
+ <div class="tarjeta nosotros img3">
+        </div>
+
+       
+        <div class="tarjeta nosotros">
+          <h3 class=" fuente2">Nuevo comienzo</h3>
+          <p>...pero no termino ahí, teniamos que encontrar una alternativa para poder seguir trabajando y llevar a cabo la llegada del nuevo integrante de la familia. Y esta vez haciendo algo completamente propio, dijimos "porque no hacer nuestras propias remeras". Y así lo hicimos, después de averiguar y estudiar distintas técnicas de estampado, elegimos el DTF "Direct Transfer to Film" y le dimos un nuevo rumbo a Maldito Sistema...</p>
+        </div>
+
+         <div class="tarjeta nosotros img4">
+        </div>
+
+        <div class="tarjeta nosotros">
+          <h3 class=" fuente2">Iara y Eithan...</h3>
+          <p>Nuestros hijos y motores, son la razón principal de todo esto y por quienes hacemos con mucho amor este emprendimiento.</p>
+        </div>
+
+        <div class="tarjeta nosotros img5">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="pie-pagina">
+      <div class="tienda">
+        <a href="../pages/tienda.html" class="link titulo fuente1">
+          <h4>TIENDA</h4>
+        </a>
+        <ul>
+          <a href="../pages/indumentaria.html" class="link texto">
+            <li>indumentaria</li>
+          </a>
+          <a href="../pages/natura.html" class="link texto">
+            <li>Cosméticos Natura</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="tienda">
+        <a href="../pages/contacto.html" class="link titulo fuente1">
+          <h4>CONTACTO</h4>
+        </a>
+        <ul>
+          <a href="" class="link texto">
+            <li>+54 11 56295514</li>
+          </a>
+          <a href="https://www.instagram.com/ind.malditosistema/" class="link texto">
+            <li> ind.malditosistema</li>
+          </a>
+          <a href="" class="link texto">
+            <li>malditosistemaoficial@gmail.com</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="tienda">
+        <h4 class="titulo fuente1">NEWSLETTER</h4>
+        <input type="email" placeholder="Ingresá tu email y suscribite a nuestro newsletter" class="newlestter-emaill">
+        <input type="button" value="suscribir" class="suscribir">
+      </div>
+
+    </div>
+  </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

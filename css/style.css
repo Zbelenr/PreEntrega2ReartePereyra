@@ -74,6 +74,26 @@
   color: red;
   margin: 10px;
 }
+.tarjeta.nosotros.img1 {
+  background-image: url(../assets/img/nosotros.png);
+  background-size: cover;
+}
+.tarjeta.nosotros.img2 {
+  background-image: url(../assets/img/local.png);
+  background-size: cover;
+}
+.tarjeta.nosotros.img3 {
+  background-image: url(../assets/img/embarazo.png);
+  background-size: cover;
+}
+.tarjeta.nosotros.img4 {
+  background-image: url(../assets/img/dtf.png);
+  background-size: cover;
+}
+.tarjeta.nosotros.img5 {
+  background-image: url(../assets/img/hijos.png);
+  background-size: cover;
+}
 
 .mp {
   background-color: black;
@@ -86,6 +106,16 @@
   width: 400px;
   height: 200px;
   background-color: red;
+}
+
+.nosotros {
+  background-color: red;
+  color: white;
+  height: 400px;
+  width: 800px;
+}
+.nosotros p {
+  text-align: center;
 }
 
 .pie-pagina {
@@ -157,7 +187,7 @@ section {
   text-align: center;
 }
 
-body {
+.fondo {
   background-color: black;
 }
 
@@ -171,7 +201,8 @@ body {
 }
 .banner.nat {
   background-image: url(../assets/img/natura.png);
-  background-position: center;
+  background-position-x: center;
+  background-position-y: 79%;
 }
 .banner-titulo {
   text-align: center;

@@ -33,6 +33,26 @@ justify-content: center;
     .precio{
         color: red;
         margin: 10px;
+    } 
+     &.nosotros.img1{
+        background-image: url(../assets/img/nosotros.png);
+        background-size: cover;
+    }
+    &.nosotros.img2{
+        background-image: url(../assets/img/local.png);
+        background-size: cover;
+    }
+    &.nosotros.img3{
+        background-image: url(../assets/img/embarazo.png);
+        background-size: cover;
+    }
+    &.nosotros.img4{
+        background-image: url(../assets/img/dtf.png);
+        background-size: cover;
+    }
+    &.nosotros.img5{
+        background-image: url(../assets/img/hijos.png);
+        background-size: cover;
     }
     }
 .mp{
@@ -45,4 +65,14 @@ justify-content: center;
     width: 400px;
     height: 200px;
     background-color: red;
+}
+.nosotros{
+    background-color: red;
+    color: white;
+    height: 400px;
+    width: 800px;
+    p{
+        text-align: center;
+    }
+  
 }
