@@ -1,0 +1,11 @@
+.tarjeta {
+    &.indumentaria {
+        background-image: url(../assets/img/indumentaria.jpg);
+        background-position: center;
+    }
+
+    &.natura {
+        background-image: url(../assets/img/natura.png);
+        background-position: center;
+    }
+}

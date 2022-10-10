@@ -1,0 +1,31 @@
+.tarjeta {
+    &.nosotros.img1 {
+        background-image: url(../assets/img/nosotros.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.nosotros.img2 {
+        background-image: url(../assets/img/local2.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.nosotros.img3 {
+        background-image: url(../assets/img/embarazo.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.nosotros.img4 {
+        background-image: url(../assets/img/dtf.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &.nosotros.img5 {
+        background-image: url(../assets/img/hijos2.png);
+        background-size: cover;
+        background-position: center;
+    }
+}

@@ -36,6 +36,20 @@
   border: 3px solid red;
 }
 
+.enviar {
+  color: red;
+  background-color: white;
+  border: 3px solid white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.enviar:hover {
+  color: white;
+  background-color: red;
+  border: 3px solid white;
+}
+
 .tarjeta-grupo {
   margin: 10px;
   border-radius: 5px;
@@ -45,14 +59,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-.tarjeta-grupo .tarjeta.indumentaria {
-  background-image: url(../assets/img/indumentaria.jpg);
-  background-position: center;
-}
-.tarjeta-grupo .tarjeta.natura {
-  background-image: url(../assets/img/natura.png);
-  background-position: center;
 }
 
 .tarjeta {
@@ -69,30 +75,6 @@
 }
 .tarjeta img {
   border-radius: 10px;
-}
-.tarjeta .precio {
-  color: red;
-  margin: 10px;
-}
-.tarjeta.nosotros.img1 {
-  background-image: url(../assets/img/nosotros.png);
-  background-size: cover;
-}
-.tarjeta.nosotros.img2 {
-  background-image: url(../assets/img/local.png);
-  background-size: cover;
-}
-.tarjeta.nosotros.img3 {
-  background-image: url(../assets/img/embarazo.png);
-  background-size: cover;
-}
-.tarjeta.nosotros.img4 {
-  background-image: url(../assets/img/dtf.png);
-  background-size: cover;
-}
-.tarjeta.nosotros.img5 {
-  background-image: url(../assets/img/hijos.png);
-  background-size: cover;
 }
 
 .mp {
@@ -159,6 +141,36 @@
   color: red;
 }
 
+.fondo {
+  background-color: black;
+}
+
+.banner {
+  height: 23vh;
+  width: 100%;
+  background-image: url(../assets/img/banner1700x210.png);
+  background-position: right;
+  padding: 10px;
+  background-repeat: no-repeat;
+}
+.banner-titulo {
+  text-align: center;
+  margin: 0%;
+  color: red;
+  position: relative;
+  top: 20%;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}
+
+.precio {
+  color: red;
+  margin: 10px;
+}
+
 .banner-boton {
   position: relative;
   top: 30%;
@@ -187,34 +199,60 @@ section {
   text-align: center;
 }
 
-.fondo {
-  background-color: black;
+.contacto {
+  background-color: rgb(61, 61, 61);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
 }
 
-.banner {
-  height: 23vh;
-  width: 100%;
-  background-image: url(../assets/img/banner1700x210.png);
-  background-position: right;
-  padding: 10px;
-  background-repeat: no-repeat;
+.formulario {
+  color: red;
+  border: 2px solid;
+  border-radius: 5px;
 }
-.banner.nat {
+
+.banner .nat {
   background-image: url(../assets/img/natura.png);
   background-position-x: center;
   background-position-y: 79%;
 }
-.banner-titulo {
-  text-align: center;
-  margin: 0%;
-  color: red;
-  position: relative;
-  top: 20%;
+
+.tarjeta.nosotros.img1 {
+  background-image: url(../assets/img/nosotros.png);
+  background-size: cover;
+  background-position: center;
+}
+.tarjeta.nosotros.img2 {
+  background-image: url(../assets/img/local2.png);
+  background-size: cover;
+  background-position: center;
+}
+.tarjeta.nosotros.img3 {
+  background-image: url(../assets/img/embarazo.png);
+  background-size: cover;
+  background-position: center;
+}
+.tarjeta.nosotros.img4 {
+  background-image: url(../assets/img/dtf.png);
+  background-size: cover;
+  background-position: center;
+}
+.tarjeta.nosotros.img5 {
+  background-image: url(../assets/img/hijos2.png);
+  background-size: cover;
+  background-position: center;
 }
 
-.link {
-  text-decoration: none;
-  list-style: none;
+.tarjeta.indumentaria {
+  background-image: url(../assets/img/indumentaria.jpg);
+  background-position: center;
+}
+.tarjeta.natura {
+  background-image: url(../assets/img/natura.png);
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */

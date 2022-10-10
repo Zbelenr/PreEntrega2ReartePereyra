@@ -1,25 +1,19 @@
-.tarjeta-grupo{
-    margin:10px ;
+.tarjeta-grupo {
+    margin: 10px;
     border-radius: 5px;
     padding: 10px;
-background-color: rgb(61, 61, 61);
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-.tarjeta.indumentaria{
-    background-image: url(../assets/img/indumentaria.jpg);
-    background-position: center;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
-.tarjeta.natura{
-    background-image: url(../assets/img/natura.png);
-    background-position: center;
-}
-}
-.tarjeta{
+
+.tarjeta {
     background-color: white;
-   width: 400px;
-   height: 450px;
+    width: 400px;
+    height: 450px;
     margin: 10px;
     border-radius: 10px;
     padding: 20px;
@@ -27,52 +21,33 @@ justify-content: center;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    img{
+
+    img {
         border-radius: 10px;
     }
-    .precio{
-        color: red;
-        margin: 10px;
-    } 
-     &.nosotros.img1{
-        background-image: url(../assets/img/nosotros.png);
-        background-size: cover;
-    }
-    &.nosotros.img2{
-        background-image: url(../assets/img/local.png);
-        background-size: cover;
-    }
-    &.nosotros.img3{
-        background-image: url(../assets/img/embarazo.png);
-        background-size: cover;
-    }
-    &.nosotros.img4{
-        background-image: url(../assets/img/dtf.png);
-        background-size: cover;
-    }
-    &.nosotros.img5{
-        background-image: url(../assets/img/hijos.png);
-        background-size: cover;
-    }
-    }
-.mp{
+}
+
+.mp {
     background-color: black;
     align-items: center;
 }
-.tmp{
+
+.tmp {
     text-align: center;
     color: white;
     width: 400px;
     height: 200px;
     background-color: red;
 }
-.nosotros{
+
+.nosotros {
     background-color: red;
     color: white;
     height: 400px;
     width: 800px;
-    p{
+
+    p {
         text-align: center;
     }
-  
+
 }

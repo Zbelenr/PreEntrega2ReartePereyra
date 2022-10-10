@@ -1,29 +1,31 @@
-.fondo{
+.fondo {
     background-color: black;
 }
-.banner{ 
+
+.banner {
     height: 23vh;
     width: 100%;
     background-image: url(../assets/img/banner1700x210.png);
     background-position: right;
     padding: 10px;
     background-repeat: no-repeat;
-    &.nat{
-        background-image: url(../assets/img/natura.png);
-        background-position-x: center;
-        background-position-y: 79%;
-    }
-    &-titulo{
-      
+
+    &-titulo {
+
         text-align: center;
         margin: 0%;
         color: red;
         position: relative;
-        top: 20%;}
-      
+        top: 20%;
     }
+}
 
-    .link{
-        text-decoration: none;
+.link {
+    text-decoration: none;
     list-style: none;
-    }
+}
+
+.precio {
+    color: red;
+    margin: 10px;
+}

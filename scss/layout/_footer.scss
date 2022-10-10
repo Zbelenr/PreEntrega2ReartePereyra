@@ -1,35 +1,40 @@
-.pie-pagina{
+.pie-pagina {
     width: 100%;
     background-color: rgb(46, 46, 46);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    .tienda{
-       width: 300px;
+
+    .tienda {
+        width: 300px;
         padding: 10px;
-        margin: 10px; 
-    }
-    .titulo{
-        color: red;
-    }
-    .texto{
-        color: white;
-    }
-    .texto:hover{
-        color: red;
-    }
-    }
-    
-    .suscribir{
-        background-color: red;
-        color: white;
         margin: 10px;
-        border-color: red;
-        border-radius: 5px;
     }
-    .suscribir:hover{
+
+    .titulo {
         color: red;
-        background-color: white;
-        border: 2px solid red;
     }
+
+    .texto {
+        color: white;
+    }
+
+    .texto:hover {
+        color: red;
+    }
+}
+
+.suscribir {
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.suscribir:hover {
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
